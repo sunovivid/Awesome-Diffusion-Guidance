@@ -7,8 +7,8 @@ This repository contains a collection of resources and papers on ***guidance met
 **This repository is currently under maintenance.**
 
 ## Contents
-<!-- - [Resources](#resources)
-  - [Introductory Posts](#introductory-posts)
+- [Resources](#resources)
+  <!-- - [Introductory Posts](#introductory-posts)
   - [Introductory Papers](#introductory-papers)
   - [Introductory Videos](#introductory-videos)
   - [Introductory Lectures](#introductory-lectures)
@@ -18,10 +18,12 @@ This repository contains a collection of resources and papers on ***guidance met
   - [Guidance Proposal Papers](#guidance-proposal-papers)
   - [Theoritical Interpretation](#theoritical-interpretation) 
   - [Application](#application)
-
 # Resources
-## Survey Papers
 TODO
+
+# Papers
+<!-- ## Survey Papers
+TODO -->
 
 ## Must-read Papers
 **Diffusion Models Beat GANs on Image Synthesis** \
