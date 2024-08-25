@@ -115,6 +115,19 @@ Proposes that CFG is the first-order form of a more general type (ICFG) and pres
 Uses guided epsilon when moving toward $x_0$ in CFG and original epsilon when returning to $x_{t-1}$.\
 (CFG에서 $x_0$로 갈 때는 guided epsilon을 사용하고 $x_{t-1}$ 돌아올 때는 original epsilon 사용)
 
+**Analysis of Classifier-Free Guidance Weight Schedulers** \
+*Wang, Xi, Dufour, Nicolas, Andreou, Nefeli, Cani, Marie-Paule, Abrevaya, Victoria Fernandez, Picard, David, Kalogeiton, Vicky*  \
+[[Paper](https://arxiv.org/abs/2404.13040)] \
+Conducts various experiments on CFG timestep weight schedulers and empirically finds that applying it in the middle phase is most effective.\
+(CFG 타임스텝에 따른 weight 스케줄러 다양하게 실험해보고 경험적으로 중반부에 주는게 효과적이라고 함)
+
+**Applying Guidance in a Limited Interval Improves Sample and Distribution Quality in Diffusion Models** \
+*Kynkäänniemi, Tuomas, Aittala, Miika, Karras, Tero, Laine, Samuli, Aila, Timo, Lehtinen, Jaakko* \
+*2024/04/11* \
+[[Paper](https://arxiv.org/abs/2404.07724)] \
+Suggests that CFG has negative effects early in generation and almost no impact later, so applying it only in the middle phase is recommended. Analyzes using a 1D toy example.\
+(CFG가 생성 초반에는 안 좋은 영향 주고 후반부에는 영향 거의 없으니 중반만 주는 게 좋다고 함. 1D toy example로 분석)
+
 ## Theoritical Interpretation
 **Classifier-Free Guidance is a Predictor-Corrector** \
 *Bradley, Arwen, Nakkiran, Preetum* \
@@ -128,14 +141,6 @@ Uses guided epsilon when moving toward $x_0$ in CFG and original epsilon when re
 
 <!-- ### Video Models -->
 
-
-## Weight Schedule
-**Analysis of Classifier-Free Guidance Weight Schedulers** \
-*Wang, Xi, Dufour, Nicolas, Andreou, Nefeli, Cani, Marie-Paule, Abrevaya, Victoria Fernandez, Picard, David, Kalogeiton, Vicky*  \
-[[Paper](https://arxiv.org/abs/2404.13040)]
-
-
----
 # TODO
 **Gradient Guidance for Diffusion Models: An Optimization Perspective** \
 *Guo, Yingqing, Yuan, Hui, Yang, Yukang, Chen, Minshuo, Wang, Mengdi* \
@@ -173,3 +178,13 @@ Yang Luo, Yiheng Zhang, Zhaofan Qiu, Ting Yao, Zhineng Chen, Yu-Gang Jiang, Tao 
 *Yang, Lingxiao, Ding, Shutong, Cai, Yifan, Yu, Jingyi, Wang, Jingya, Shi, Ye* \
 *2024/02/05* \
 [[Paper](https://arxiv.org/abs/2402.03201)]
+
+**Unveil Conditional Diffusion Models with Classifier-free Guidance: A Sharp Statistical Theory** \
+*Fu, Hengyu, Yang, Zhuoran, Wang, Mengdi, Chen, Minshuo* \
+*2024/03/18* \
+[[Paper](https://arxiv.org/abs/2403.11968)]
+
+**Rethinking Conditional Diffusion Sampling with Progressive Guidance** \
+*Dinh, Anh-Dung, Liu, Daochang, Xu, Chang* \
+*NeurIPS 2023* \
+[[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/83ca9e252329e7b0704ead93893e6b1b-Abstract-Conference.html)]
