@@ -19,7 +19,9 @@ This repository contains a collection of resources and papers on ***guidance met
   - [Theoritical Interpretation](#theoritical-interpretation) 
   - [Application](#application)
 # Resources
-TODO
+## Other Useful Repositories
+- [wangkai930418/awesome-diffusion-categorized](https://github.com/wangkai930418/awesome-diffusion-categorized)
+- [kwonminki/One-sentence_Diffusion_summary](https://github.com/kwonminki/One-sentence_Diffusion_summary) (Korean)
 
 # Papers
 <!-- ## Survey Papers
