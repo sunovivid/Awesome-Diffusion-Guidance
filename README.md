@@ -130,6 +130,18 @@ Conducts various experiments on CFG timestep weight schedulers and empirically f
 Suggests that CFG has negative effects early in generation and almost no impact later, so applying it only in the middle phase is recommended. Analyzes using a 1D toy example.\
 (CFG가 생성 초반에는 안 좋은 영향 주고 후반부에는 영향 거의 없으니 중반만 주는 게 좋다고 함. 1D toy example로 분석)
 
+## Removing CFG
+**Visual Generation Without Guidance** \
+*Huayu Chen, Kai Jiang, Kaiwen Zheng, Jianfei Chen, Hang Su, Jun Zhu* \
+*26 Jan 2025* \
+ICML'25 \
+[[Paper](https://arxiv.org/abs/2501.15420)]
+
+**Diffusion Models without Classifier-free Guidance** \
+*Zhicong Tang, Jianmin Bao, Dong Chen, Baining Guo* \
+*17 Feb 2025* \
+[[Paper](https://arxiv.org/abs/2502.12154)] 
+
 ## Theoritical Interpretation
 **Classifier-Free Guidance is a Predictor-Corrector** \
 *Bradley, Arwen, Nakkiran, Preetum* \
